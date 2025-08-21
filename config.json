@@ -1,0 +1,105 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "autosave": true,
+    "background": true,
+    "colors": true,
+    "cpu": {
+        "argon2-impl": null,
+        "asm": true,
+        "cn-lite/0": false,
+        "cn/0": false,
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": true,
+        "hw-aes": null,
+        "max-threads-hint": 58,
+        "memory-pool": true,
+        "priority": 0,
+        "yield": true
+    },
+    "cuda": {
+        "cn-lite/0": false,
+        "cn/0": false,
+        "enabled": false,
+        "loader": null,
+        "nvml": true
+    },
+    "dmi": true,
+    "dns": {
+        "ipv6": false,
+        "ttl": 30
+    },
+    "donate-level": 0,
+    "donate-over-proxy": 0,
+    "health-print-time": 60,
+    "http": {
+        "access-token": null,
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "restricted": true
+    },
+    "log-file": null,
+    "opencl": {
+        "adl": false,
+        "cache": true,
+        "cn-lite/0": false,
+        "cn/0": false,
+        "enabled": false,
+        "loader": null,
+        "platform": "NVIDIA"
+    },
+    "pause-on-active": false,
+    "pause-on-battery": false,
+    "pools": [
+        {
+            "algo": "rx/0",
+            "coin": "monero",
+            "daemon": false,
+            "enabled": true,
+            "keepalive": true,
+            "nicehash": false,
+            "pass": "XMRminer001",
+            "rig-id": null,
+            "self-select": null,
+            "sni": false,
+            "socks5": null,
+            "submit-to-origin": false,
+            "tls": false,
+            "tls-fingerprint": null,
+            "url": "pool.supportxmr.com:7777",
+            "user": "45ioSqWMzGTXPMFme5c8RxcKvakKCY9dcj7oW2zBUYCt93ci2kPutiSEHxtEAd69jGAJE1sGiwNFENdN1KC5S2BB53nG9Pd"
+        }
+    ],
+    "print-time": 60,
+    "randomx": {
+        "1gb-pages": false,
+        "cache_qos": false,
+        "init": -1,
+        "init-avx2": -1,
+        "mode": "auto",
+        "numa": true,
+        "rdmsr": true,
+        "scratchpad_prefetch_mode": 1,
+        "wrmsr": true
+    },
+    "retries": 5,
+    "retry-pause": 5,
+    "syslog": false,
+    "title": true,
+    "tls": {
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null,
+        "enabled": false,
+        "protocols": null
+    },
+    "user-agent": null,
+    "verbose": 0,
+    "watch": true
+}
