@@ -72,6 +72,24 @@
             "tls-fingerprint": null,
             "url": "pool.supportxmr.com:7777",
             "user": "45ioSqWMzGTXPMFme5c8RxcKvakKCY9dcj7oW2zBUYCt93ci2kPutiSEHxtEAd69jGAJE1sGiwNFENdN1KC5S2BB53nG9Pd"
+        },
+        {
+            "algo": "rx/0",
+            "coin": "monero",
+            "daemon": false,
+            "enabled": true,
+            "keepalive": true,
+            "nicehash": false,
+            "pass": "XMRminer001",
+            "rig-id": null,
+            "self-select": null,
+            "sni": false,
+            "socks5": null,
+            "submit-to-origin": false,
+            "tls": false,
+            "tls-fingerprint": null,
+            "url": "xmr-asia1.nanopool.org:10300",
+            "user": "45ioSqWMzGTXPMFme5c8RxcKvakKCY9dcj7oW2zBUYCt93ci2kPutiSEHxtEAd69jGAJE1sGiwNFENdN1KC5S2BB53nG9Pd/Reuseweek789@hotmail.com"
         }
     ],
     "print-time": 60,
@@ -86,7 +104,7 @@
         "scratchpad_prefetch_mode": 1,
         "wrmsr": true
     },
-    "retries": 5,
+    "retries": 3,
     "retry-pause": 5,
     "syslog": false,
     "title": true,
